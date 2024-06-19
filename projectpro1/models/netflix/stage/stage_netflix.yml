@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: CREDITS_DIM
+    columns: 
+      - name: ID
+        tests:
+          - unique
+          - not_null
+  - name: SCORES_VOTES_DIM
+  - name: SHOW_DETAILS_DIM
